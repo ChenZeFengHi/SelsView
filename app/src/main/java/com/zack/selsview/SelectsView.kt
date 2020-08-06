@@ -73,8 +73,6 @@ class SelectsView : FrameLayout {
             it.mClickCellListener = { iSelect, nextPosition ->
                 addView(iSelect, nextPosition)
             }
-
-            viewPager.offscreenPageLimit = Int.MAX_VALUE
         }
 
         addView(mConstraintLayout)
